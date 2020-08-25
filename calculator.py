@@ -22,6 +22,7 @@ def get_HDL_input():
     return int(HDL_input)
 def output_HDL(test_result, analysis):
     print ("HDL result is {}".format(test_result))
+    print("HDL result is {}".format(analysis))
 def check_HDL(testvalue):
     if testvalue >=60:
         return "Normal"
