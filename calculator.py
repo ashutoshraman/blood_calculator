@@ -48,5 +48,6 @@ def check_LDL(testvalue):
     elif 160 <= testvalue <189:
         return "high"
     else:
-        return "too damn high"
-interface()
+        return "too high"
+if __name__=="__main__":
+    interface()
